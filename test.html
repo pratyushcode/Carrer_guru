@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="teststyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav_bar">
+            <header>
+                <h2>Career Guru</h2>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Take Test</a></li>
+                        <li><a href="">Profile</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        </div>
+
+        <div class="ques1">
+            <h1>Which class you are in</h1>
+            <div class="options">
+                <ul>
+                    <li><input  type="button" id="9th" onclick="selection(9)" value="9th"></li>
+                    <li><input  type="button" id="10th" onclick="selection(10)" value="10th"></li>
+                    <li><input  type="button" id="11th" onclick="selection(11)" value="11th"></li>
+                    <li><input type="button" id="12th"  onclick="selection(12)" value="12th"></li>
+                </ul>
+                
+            </div>
+        </div>
+        
+        <div class="ques2">
+            <h1>Choose subjects you like</h1>
+            <div class="options2">
+                <div>
+                    <input type="button" id="maths" onclick="selectionsubject(1)" value="Maths">
+                </div>
+                <div>
+                    <input type="button" id="physics" onclick="selectionsubject(2)" value="Physics">
+                </div>
+
+                <div>
+                    <input type="button" id="chemistry" onclick="selectionsubject(3)" value="Chemistry">
+                </div>
+                <div>
+                    <input type="button" id="history" onclick="selectionsubject(4)" value="History">
+                </div>
+                <div>
+                    <input type="button" id="biology" onclick="selectionsubject(5)" value="Biology">
+                </div>
+                <div>
+                    <input type="button" id="english" onclick="selectionsubject(6)" value="English">
+                </div>
+                <div>
+                    <input type="button" id="economics" onclick="selectionsubject(7)" value="Economics">
+                </div>
+                <div>
+                    <input type="button" id="geography" onclick="selectionsubject(8)" value="Geography">
+                </div>
+                <div>
+                    <input type="button" id="civics" onclick="selectionsubject(9)" value="Civics">
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="ques3">
+            <h1>How would you explain your mind works</h1>
+            <div class="options2">
+                <div>
+                    <input type="button" id="Logical" onclick="selectionmindset(1)" value="Logical">
+                </div>
+                <div>
+                    <input type="button" id="Analytical" onclick="selectionmindset(2)" value="Analytical">
+                </div>
+
+                <div>
+                    <input type="button" id="STEM" onclick="selectionmindset(3)" value="STEM">
+                </div>
+                <div>
+                    <input type="button" id="Disciplined" onclick="selectionmindset(4)" value="Disciplined">
+                </div>
+                <div>
+                    <input type="button" id="Physical" onclick="selectionmindset(5)" value="Physical">
+                </div>
+                <div>
+                    <input type="button" id="Reasoning" onclick="selectionmindset(6)" value="Reasoning">
+                </div>
+                <div>
+                    <input type="button" id="Linguistic" onclick="selectionmindset(7)" value="Linguistic">
+                </div>
+                <div>
+                    <input type="button" id="Organisational" onclick="selectionmindset(8)" value="Organisational">
+                </div>
+                <div>
+                    <input type="button" id="Learning" onclick="selectionmindset(9)" value="Learning">
+                </div>
+                
+                
+                
+            </div>
+        </div>
+
+        <div class="ques4">
+            <h1>What are your interests</h1>
+            <div class="options2">
+                <div>
+                    <input type="button" id="Reading" onclick="selectioninterests(1)" value="Reading">
+                </div>
+                <div>
+                    <input type="button" id="Travel" onclick="selectioninterests(2)" value="Travel">
+                </div>
+
+                <div>
+                    <input type="button" id="Music" onclick="selectioninterests(3)" value="Music">
+                </div>
+                <div>
+                    <input type="button" id="Art" onclick="selectioninterests(4)" value="Art">
+                </div>
+                <div>
+                    <input type="button" id="History2" onclick="selectioninterests(5)" value="History">
+                </div>
+                <div>
+                    <input type="button" id="Space" onclick="selectioninterests(6)" value="Space">
+                </div>
+                <div>
+                    <input type="button" id="Sports" onclick="selectioninterests(7)" value="Sports">
+                </div>
+                <div>
+                    <input type="button" id="Movies" onclick="selectioninterests(8)" value="Movies">
+                </div>
+                <div>
+                    <input type="button" id="Coding" onclick="selectioninterests(9)" value="Coding">
+                </div>
+                
+        </div>
+
+        <div class="buttons">
+            <input type="button" value="Submit" onclick="returnData()">
+            
+            
+        </div>
+        
+        
+        
+    </div>
+</div>
+<script src="javascript.js"></script>
+<script src="api.js"></script>
+</body>
+</html>
